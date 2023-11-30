@@ -1,0 +1,35 @@
+import React from 'react'
+import './style.css'
+import logo from "../../Assets/footerlogo.png"
+import icon1 from "../../Assets/fb.svg"
+import icon2 from "../../Assets/twitt.svg"
+import icon3 from "../../Assets/linkein.svg"
+import icon4 from "../../Assets/github.svg"
+const FooterCompo = () => {
+    return (
+        <footer className='flex'>
+            <div>
+                <img src={logo} alt='logo' />
+            </div>
+            <div className='links'>
+                <a href='#header'>Blog</a>
+                <a href='#header'>Fees</a>
+                <a href='#header'>Leaderboard</a>
+                <a href='#header'>Careers</a>
+                <a href='#header'>Contact Us</a>
+                <a href='#header'>Privacy Policy</a>
+            </div>
+            <div className='desc'>
+                <p >Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade bel när feras redorade i belogi. FAR paratyp <br />i muvåning, och pesask vyfisat. Viktiga poddradio har un mad och inde. </p>
+            </div>
+            <div className='icons'>
+                <img src={icon1} alt='social media' />
+                <img src={icon2} alt='social media' />
+                <img src={icon3} alt='social media' />
+                <img src={icon4} alt='social media' />
+            </div>
+        </footer>
+    )
+}
+
+export default FooterCompo
