@@ -11,27 +11,27 @@ const MidCompo1 = () => {
     return (
         <div className='main-div-2 flex'>
             <div className='card'>
-                <img className='frame' src={frame1} alt='image' />
+                <img className='frame' src={frame1} alt='frame1' />
                 <div className='para1'>
-                    <img className='logo' src={G1} alt='image' />
+                    <img className='logo' src={G1} alt='G1' />
                     <p>One App.</p>
                     <p>Endless</p>
                     <p>Possibilities</p>
                 </div>
             </div>
             <div className='card'>
-                <img className='frame' src={frame2} alt='image' />
+                <img className='frame' src={frame2} alt='frame2' />
                 <div className='para2'>
-                    <img className='logo' src={G2} alt='image' />
+                    <img className='logo' src={G2} alt='G2' />
                     <p>Future of</p>
                     <p>Derivative</p>
                     <p>Trading.</p>
                 </div>
             </div>
             <div className='card'>
-                <img className='frame' src={frame3} alt='image' />
+                <img className='frame' src={frame3} alt='frame3' />
                 <div className='para3'>
-                    <img className='logo' src={G3} alt='image' />
+                    <img className='logo' src={G3} alt='G3' />
                     <p>Is now here</p>
                     <p>for you</p>
                 </div>

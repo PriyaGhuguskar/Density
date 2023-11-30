@@ -11,12 +11,12 @@ const MidCompo5 = () => {
             </div>
             <div className='bottom'>
                 <div className='card'>
-                    <img src={percent} alt='image' />
+                    <img src={percent} alt='percent' />
                     <h1>Deposit <br />Bonus</h1>
                     <p>Our assets' liquidity is unmatched in the market, with a small bid-ask spread and a well-balanced order book.</p>
                 </div>
                 <div className='card'>
-                    <img src={manage1} alt='image' />
+                    <img src={manage1} alt='manage1' />
                     <h1>Dedicated<br />
                         Relationship Manager.</h1>
                     <p>Our assets' liquidity is unmatched in the market, with a small bid-ask spread and a well-balanced order book.</p>

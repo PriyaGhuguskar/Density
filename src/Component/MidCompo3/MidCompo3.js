@@ -11,7 +11,7 @@ const MidCompo3 = () => {
                 <p>Search for your favorite coins and stay ahead of the market</p>
             </div>
             <div className='bottom'>
-                <img src={tradebig} alt='image' />
+                <img src={tradebig} alt='tradebig' />
             </div>
             <div><button className='gradient-bg'>Explore Markets</button></div>
         </div>

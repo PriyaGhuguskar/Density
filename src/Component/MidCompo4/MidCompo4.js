@@ -12,7 +12,7 @@ const MidCompo4 = () => {
                 <p> money? We got you covered!</p>
             </div>
             <div className='bottom'>
-                <img src={tradegraph} alt='image' />
+                <img src={tradegraph} alt='tradegraph' />
             </div>
         </div>
     )

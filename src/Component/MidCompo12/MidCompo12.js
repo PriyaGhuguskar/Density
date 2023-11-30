@@ -8,7 +8,7 @@ const MidCompo12 = () => {
                 <h1>Get started now.</h1>
             </div>
             <div className='bottom'>
-                <img src={phone} alt='image' />
+                <img src={phone} alt='phone' />
             </div>
             <button className='trade'>Start Trading!</button>
         </div>

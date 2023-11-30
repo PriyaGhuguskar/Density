@@ -13,13 +13,13 @@ const MidCompo2 = () => {
             </div>
             <div className='bottom'>
                 <div>
-                    <img src={trade1} alt='image' />
+                    <img src={trade1} alt='trade1' />
                 </div>
                 <div>
-                    <img className='image-2' src={trade2} alt='image' />
+                    <img className='image-2' src={trade2} alt='trade2' />
                 </div>
                 <div>
-                    <img src={trade3} alt='image' />
+                    <img src={trade3} alt='trade3' />
                 </div>
             </div>
         </div>
